@@ -78,8 +78,18 @@
     text-align: center;
     font-family: av-ultralight;
     font-size: 40px;
-    padding-top: 20px;
 }
+
+
+.mission-subsection
+{
+    width = 100%;
+    display:block;
+    overflow:auto;
+    background-color: #ecf0f1;
+}
+
+
 .mission-description{
 
     text-align: center;
@@ -111,10 +121,9 @@
     line-height: 35px; 
     margin-right: 10px;
     margin-left:10px;
+    margin-bottom: 30px;
 }
-#mission{
-    background-color: #ecf0f1;
-}
+
 .navbar-brand{
     font-family: av-ultralight;
     letter-spacing: -1px;
@@ -137,13 +146,29 @@
     overflow:auto;
 }
 
-/*
-.vid-wrapper iframe
-{ 
-   max-width: 1000px;
-    max-height : 562.5;
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+    padding-right:20px;
+    padding-left:20px;
+	height: 0;
+    max-height: 100%;
 }
-*/
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+.section-wrapper
+{
+    padding-top: 50px;
+    margin-top: -50px;
+}
 
 
 /*
