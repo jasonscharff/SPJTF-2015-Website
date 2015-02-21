@@ -127,6 +127,17 @@
 .navbar-brand{
     font-family: av-ultralight;
     letter-spacing: -1px;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 500px)
+{
+   .navbar-brand{
+    font-family: av-ultralight;
+    letter-spacing: -1px;
+    font-size: 15px;
+}
+ 
 }
 .navbar{
     font-family: av-ultralight;
