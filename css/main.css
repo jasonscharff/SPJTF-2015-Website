@@ -62,8 +62,8 @@
     
     .main-heading
     {
-        letter-spacing: 30px;
-        text-indent: 30px;
+        letter-spacing: 20px;
+        text-indent: 20px;
     }
 }
 .lower-heading{
@@ -179,6 +179,7 @@
 {
     padding-top: 50px;
     margin-top: -50px;
+    max-width: 100%;
 }
 
 .footer-note
@@ -252,7 +253,6 @@ body {
 .site-wrapper-inner {
   display: table-cell;
   vertical-align: middle;
-    
 }
 .cover-container {
   margin-right: auto;
