@@ -51,8 +51,8 @@
 .main-heading{
     font-family: "Helvetica Neue";
     font-weight: lighter;
-    letter-spacing: 30px;
-    text-indent: 30px;
+    letter-spacing: 50px;
+    text-indent: 50px;
     font-weight: 100;
     font-size: 5em;
 
@@ -62,8 +62,8 @@
     
     .main-heading
     {
-        letter-spacing: 20px;
-        text-indent: 20px;
+        letter-spacing: 2px;
+        text-indent: 2px;
     }
 }
 .lower-heading{
