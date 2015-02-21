@@ -62,8 +62,8 @@
     
     .main-heading
     {
-        letter-spacing: 2px;
-        text-indent: 2px;
+        letter-spacing: 10px;
+        text-indent: 10px;
     }
 }
 .lower-heading{
