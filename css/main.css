@@ -170,7 +170,28 @@
     margin-top: -50px;
 }
 
+.footer-note
+{
+    font-family: av-regular;
+    text-align: center;
+    color : #ffffff;
+}
 
+footer
+{
+    background-color : #1abc9c;
+}
+
+li
+{
+    color : #ffffff;
+}
+
+.footer-link
+{
+    color : #ffffff;
+    font-family: av-regular;
+}
 /*
  * Base structure
  */
@@ -240,4 +261,5 @@ body {
 .cover {
   padding: 0px 20px;
 }
+
 
