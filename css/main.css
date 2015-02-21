@@ -1,0 +1,265 @@
+/*
+ * OH HAI THERE! 
+ */
+
+/*
+* Some custom stuff...
+*/
+
+@font-face {
+    font-family: av-ultralight;
+	src: url("../fonts/AvenirNext-UltraLight.ttf") format("opentype");
+}
+@font-face {
+    font-family: av-regular;
+	src: url("../fonts/AvenirNext-Regular.ttf") format("opentype"); 
+}
+@font-face {
+    font-family: av-demibold;
+    src: url("../fonts/AvenirNext-DemiBold.ttf") format("opentype");
+}
+@font-face {
+    font-family: av-ultralight-italic;
+    src: url("../fonts/AvenirNext-UltraLightItalic.ttf") format("opentype");
+}
+@font-face
+{
+    font-family : av-regular-italic;
+    src: url("../fonts/AvenirNext-Italic.ttf") format("opentype");
+}
+
+
+/* Just in case I get lazy */
+.regular {
+    font-family: av-regular;
+}
+.light {
+    font-family: av-ultralight;
+}
+.light-italic
+{
+	font-family: av-ultralight-italic;
+}
+.bold
+{
+	font-family: av-demibold;
+}
+.dark
+{
+	color: #4a4a4a;
+}
+.main-heading{
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    letter-spacing: 50px;
+    text-indent: 50px;
+    font-weight: 100;
+    font-size: 5em;
+
+}
+@media screen and (max-width: 500px)
+{
+    
+    .main-heading
+    {
+        letter-spacing: 30px;
+        text-indent: 30px;
+    }
+}
+.lower-heading{
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-ident : 2px;
+    font-size: 2em;
+}
+.section-header{
+    text-align: center;
+    font-family: av-ultralight;
+    font-size: 40px;
+}
+
+
+.mission-subsection
+{
+    width = 100%;
+    display:block;
+    overflow:auto;
+    background-color: #ecf0f1;
+}
+
+
+.mission-description{
+
+    text-align: center;
+    font-family: av-regular-italic;
+    font-size: 20px;
+    padding: 5px;
+    letter-spacing: .5px;
+    margin-right: 10px;
+    margin-left:10px;
+    line-height: 35px;
+    
+}
+
+.section-description
+{
+    text-align: center;
+    font-family: av-ultralight-italic;
+    font-size: 20px;
+    padding: 5px;
+    letter-spacing: .5px;
+    margin-right: 10px;
+    margin-left:10px;
+    line-height: 25px;
+}
+.section-content{
+    text-align: center;
+    font-family: av-regular;
+    font-size: 20px;
+    line-height: 35px; 
+    margin-right: 10px;
+    margin-left:10px;
+    margin-bottom: 30px;
+}
+
+.navbar-brand{
+    font-family: av-ultralight;
+    letter-spacing: -1px;
+}
+.navbar{
+    font-family: av-ultralight;
+}
+
+.video-section
+{
+/*
+    background: #ffffff;
+    width:100%;
+    height:100%;
+*/
+    background-color: #ffffff;
+    margin-bottom:30px;
+    width:100%;
+    display:block;
+    overflow:auto;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+    padding-right:20px;
+    padding-left:20px;
+	height: 0;
+    max-height: 100%;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+.section-wrapper
+{
+    padding-top: 50px;
+    margin-top: -50px;
+}
+
+.footer-note
+{
+    font-family: av-regular;
+    text-align: center;
+    color : #ffffff;
+}
+
+footer
+{
+    background-color : #1abc9c;
+}
+
+li
+{
+    color : #ffffff;
+}
+
+.footer-link
+{
+    color : #ffffff;
+    font-family: av-regular;
+}
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  
+}
+body {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.content-main {
+	height: 100%;
+    background-color: #34495e;
+}
+/* background crazyness */
+.site-wrapper {
+    background: #00396f;
+    background-image: -webkit--webkit-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.2)),-webkit--webkit-linear-gradient(342deg,#e5e9bf 10%,#00396f 90%);
+    background-image: -webkit--moz-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.2)),-webkit--moz-linear-gradient(342deg,#e5e9bf 10%,#00396f 90%);
+    background-image: -webkit--o-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.2)),-webkit--o-linear-gradient(342deg,#e5e9bf 10%,#00396f 90%);
+    background-image: -webkit--ms-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.2)),-webkit--ms-linear-gradient(342deg,#e5e9bf 10%,#00396f 90%);
+    background-image: -webkit-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.2)),-webkit-linear-gradient(108deg,#e5e9bf 10%,#00396f 90%);
+    background-image: -moz--webkit-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.2)),-moz--webkit-linear-gradient(342deg,#e5e9bf 10%,#00396f 90%);
+    background-image: -moz--moz-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.2)),-moz--moz-linear-gradient(342deg,#e5e9bf 10%,#00396f 90%);
+    background-image: -moz--o-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.2)),-moz--o-linear-gradient(342deg,#e5e9bf 10%,#00396f 90%);
+    background-image: -moz--ms-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.2)),-moz--ms-linear-gradient(342deg,#e5e9bf 10%,#00396f 90%);
+    background-image: -moz-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.2)),-moz-linear-gradient(108deg,#e5e9bf 10%,#00396f 90%);
+    background-image: -ms--webkit-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.2)),-ms--webkit-linear-gradient(342deg,#e5e9bf 10%,#00396f 90%);
+    background-image: -ms--moz-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.2)),-ms--moz-linear-gradient(342deg,#e5e9bf 10%,#00396f 90%);
+    background-image: -ms--o-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.2)),-ms--o-linear-gradient(342deg,#e5e9bf 10%,#00396f 90%);
+    background-image: -ms--ms-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.2)),-ms--ms-linear-gradient(342deg,#e5e9bf 10%,#00396f 90%);
+    background-image: -ms-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.2)),-ms-linear-gradient(108deg,#e5e9bf 10%,#00396f 90%);
+    background-size: 100%;
+    display: table;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
+    box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: middle;
+    
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+    
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0px 20px;
+}
+
+
